@@ -69,14 +69,16 @@ struct ContentView: View {
                             .shadow(color: Color("Color1").opacity(0.2), radius: 15, x: 5, y: -5)
                     }
                     
+                   
                 }
-                .padding(.top, 30)
+              //  .padding(.top, 30)
+              //  .padding(.bottom, 30)
             }
             .padding(.vertical)
         }
         .background(Color("Color"))
         .preferredColorScheme(.dark)
-    }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {
